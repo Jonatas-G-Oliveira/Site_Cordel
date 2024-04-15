@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    padding: 50px;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+header h1{
+
+    font-family: "Passion One",sans-serif;
+    font-size: 11em;
+}
+
+header > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+section.branco{
+    font-family: "Patrick Hand",cursive;
+    padding: 84px;
+    margin: 50px 0px 10px 10px;
+    font-size: 3.4em;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 2em;
+
+    /*box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.500);*/
+}
+
+
+section.imagem {
+    background-position: relative;
+    height: 1100px;
+    
+}
+section#img1{
+    background-image: url("Imagem/fundo1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section#img2{
+    background-image: url("Imagem/fundo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.imagem > p{
+    background-position: absolute;
+    height: auto;
+    width: 700px;
+    
+    background-color: rgba(0, 0, 0, 0.500);
+    /*padding:10px 0px 10px 0px;*/
+
+    font-family: "Patrick Hand",cursive;
+    color: white;
+    font-size: 4em;
+    font-style: italic;
+    
+    padding-left: 10px;
+    margin-left: 84px;
+    line-height: 2em;
+    
+    transform:translate(0%,12%);
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: 100;
+    padding: 10px;
+}
